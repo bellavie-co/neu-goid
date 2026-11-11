@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GOID mark">
+  <!-- GOID project mark: a globe crossed by an opportunity radar sweep.
+       Original design for the NEU GOID prototype. Not a New Era University logo. -->
+  <rect width="64" height="64" rx="14" fill="#0f2347"/>
+  <g fill="none" stroke="#c9d6f2" stroke-linecap="round">
+    <circle cx="32" cy="32" r="21" stroke-width="2.4"/>
+    <ellipse cx="32" cy="32" rx="9" ry="21" stroke-width="1.6" opacity=".45"/>
+    <path d="M11 32h42M14.5 21h35M14.5 43h35" stroke-width="1.6" opacity=".45"/>
+  </g>
+  <path d="M32 32 L32 11 A21 21 0 0 1 50.2 21.5 Z" fill="#d3b06a" opacity=".26"/>
+  <path d="M32 32 L46.6 23.6" stroke="#d3b06a" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="50.2" cy="21.5" r="4.4" fill="#e3c88d" stroke="#0f2347" stroke-width="2"/>
+  <circle cx="32" cy="32" r="2.6" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,81 @@
+/* =====================================================================
+   NEU GOID — THEME TOKENS
+   Change colors and fonts here. Light values on :root, dark values in
+   the two dark blocks. Primary action and accent colors can also be
+   changed from the in-app Settings panel.
+   Layout: fixed navy sidebar + top bar; content in a 12-column-ish card grid.
+   ===================================================================== */
+:root {
+  /* University identity */
+  --navy: #0f2347;          /* deep navy — sidebar, headings */
+  --navy-2: #172e5a;
+  --royal: #2348a8;         /* royal blue — navigation, primary actions */
+  --gold: #a8843a;          /* muted gold — highlights, premium accents */
+  --teal: #17806f;          /* subtle teal — positive indicators */
+
+  /* Surfaces and text */
+  --bg: #f5f6f9;            /* soft off-white */
+  --surface: #ffffff;       /* white */
+  --surface-2: #f8f9fb;
+  --bluegray: #e7ecf3;      /* light blue-gray */
+  --line: #dfe4ec;
+  --fg: #16203a;
+  --muted: #5a6579;
+  --side-fg: #c3cde0;
+
+  /* Semantic */
+  --amber: #a86a12;
+  --rose: #ad3a4a;
+  --slate: #66728a;
+  --teal-soft: #e0f1ed;
+  --amber-soft: #f9eedb;
+  --rose-soft: #f8e4e7;
+  --blue-soft: #e4eafa;
+  --slate-soft: #eceff4;
+  --gold-soft: #f5eedd;
+  --sim: #7a5c12;
+  --sim-soft: #fbf3df;
+
+  /* Categorical (sectors) */
+  --c1: #2348a8;
+  --c2: #b08a3e;
+  --c3: #17806f;
+  --c4: #6a5ba3;
+
+  /* Type */
+  --font-display: 'Manrope', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  /* Shape */
+  --r: 8px;
+  --r-sm: 6px;
+  --shadow: 0 1px 2px rgba(15, 35, 71, .05), 0 2px 8px rgba(15, 35, 71, .04);
+  --shadow-lg: 0 18px 50px rgba(10, 22, 48, .22);
+  --side-w: 252px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --navy: #0a1426; --navy-2: #12203b; --royal: #7b98f0; --gold: #d3b06a; --teal: #4cbfac;
+    --bg: #0d1424; --surface: #141d31; --surface-2: #18223a; --bluegray: #1d2843; --line: #263252;
+    --fg: #e5eaf4; --muted: #96a2ba; --side-fg: #b3bed6;
+    --amber: #e3ac55; --rose: #ec8794; --slate: #9aa6bf;
+    --teal-soft: #12302c; --amber-soft: #33270f; --rose-soft: #3a1b22; --blue-soft: #1b2a50; --slate-soft: #222c44; --gold-soft: #2f2715;
+    --sim: #e6c574; --sim-soft: #30270f;
+    --c1: #7b98f0; --c2: #d3b06a; --c3: #4cbfac; --c4: #a99ce0;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3); --shadow-lg: 0 18px 50px rgba(0, 0, 0, .55);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --navy: #0a1426; --navy-2: #12203b; --royal: #7b98f0; --gold: #d3b06a; --teal: #4cbfac;
+  --bg: #0d1424; --surface: #141d31; --surface-2: #18223a; --bluegray: #1d2843; --line: #263252;
+  --fg: #e5eaf4; --muted: #96a2ba; --side-fg: #b3bed6;
+  --amber: #e3ac55; --rose: #ec8794; --slate: #9aa6bf;
+  --teal-soft: #12302c; --amber-soft: #33270f; --rose-soft: #3a1b22; --blue-soft: #1b2a50; --slate-soft: #222c44; --gold-soft: #2f2715;
+  --sim: #e6c574; --sim-soft: #30270f;
+  --c1: #7b98f0; --c2: #d3b06a; --c3: #4cbfac; --c4: #a99ce0;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3); --shadow-lg: 0 18px 50px rgba(0, 0, 0, .55);
+  color-scheme: dark;
+}
